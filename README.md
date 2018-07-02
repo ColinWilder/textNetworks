@@ -1,6 +1,10 @@
 # Text_networks: The project
 
-Text networks is the unimaginative name for a set of python modules I have written for computational text analysis. The modules were developed for courses I teach on digital history at the University of South Carolina. Feel free to email me for more information about me, the code, or the classes. 
+"Text networks" is my unimaginative name for a set of python modules I have written for computational text analysis. The modules were developed for courses I teach on digital history at the University of South Carolina. Feel free to email me for more information about me, the code, or the classes.
+
+# Ambiguity of project name
+
+There is an unintended resemblance between the title “textNetworks” and recent scholarship by a colleague of mine at the University of South Carolina. See Michael Gavin, "Historical Text Networks: The Sociology of Early English Criticism," Eighteenth-Century Studies 50, no. 1 (2016). It is possible that the name for the software occurred to me in conversations with him, although I do not /believ/ that there is much similarity between the methods and tools in this software repository and the analysis undertaken in his work.
 
 # what the code does
 
@@ -15,5 +19,3 @@ This code is mostly based on modules at The Programming Historian. See header co
 # about this effort
 
 I am a noob in GitHub. This repository will be my first real effort to put some code out in the world for others to see. 
-
-God knows whether this will work. 
