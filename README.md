@@ -4,7 +4,7 @@
 
 # Ambiguity of project name
 
-There is an unintended resemblance between the title “textNetworks” and recent scholarship by a colleague of mine at the University of South Carolina. See Michael Gavin, "Historical Text Networks: The Sociology of Early English Criticism," Eighteenth-Century Studies 50, no. 1 (2016). It is possible that the name for the software occurred to me in conversations with him, although I do not /believ/ that there is much similarity between the methods and tools in this software repository and the analysis undertaken in his work.
+There is an unintended resemblance between the title “textNetworks” and recent scholarship by a colleague of mine at the University of South Carolina. See Michael Gavin, "Historical Text Networks: The Sociology of Early English Criticism," Eighteenth-Century Studies 50, no. 1 (2016). It is possible that the name for the software occurred to me in conversations with him, although I do not *believe* that there is much similarity between the methods and tools in this software repository and the analysis undertaken in his work.
 
 # what the code does
 
