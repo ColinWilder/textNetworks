@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Subcreated first on Sunday, September 22, 2013, with improvements periodically from 2013 to 2017. 
 # @author: Colin F. Wilder
-# Intellectual Property statement: This code is based on lots of other freely available code on the internet, especially lessons from the Programming Historian by Adam Crymble and William Turkel. The utilities to make bigrams are, I believe, fairly original to me, though not rocket science anyway.  Parts of them were inspired by code written by Duncan Buell in his CSCE 500; Programming for Humanists course at the University of South Carolina in Autumn 2013. This module is therefore released under a CC-BY license i.e. Creative Commons Attribution 2.0 Generic license, which is explained at https://creativecommons.org/licenses/by/2.0/.#
+# Intellectual Property statement: This code is based on lots of other freely available code on the internet, especially lessons from the Programming Historian by Adam Crymble and William Turkel. The utilities to make bigrams are, I believe, fairly original to me, though not rocket science anyway.  Parts of them were inspired by code written by Duncan Buell in his *CSCE 500: Programming for Humanists* course at the University of South Carolina in Autumn 2013. This module is therefore released under a CC-BY license i.e. Creative Commons Attribution 2.0 Generic license, which is explained at https://creativecommons.org/licenses/by/2.0/.#
 
 def makeSpreadBigrams(textString, wordDistance): # arguments: the string and the number of words in the n-grams
     # takes string and returns list of bigrams in it
@@ -58,12 +58,6 @@ def countTokens(token, tokenDictionary): # takes as arguments a token and a toke
 
 
 
-
-
-
-
-
-
 def mostFrequentBigrams(bigramsFreqsDict, numberToShow):
 # Takes bigram frequency dictionary. Returns sorted list of most frequent bigrams
 # First loop over the dictionary to find the highest value (frequency). 
@@ -82,25 +76,6 @@ def mostFrequentBigrams(bigramsFreqsDict, numberToShow):
                 break
         if counter==numberToShow: 
                 break
-
-#==============================================================================
-# ## from Duncan - an alternative way to sort a frequency dictionary
-# ## create a list of [value key] pairs instead of [key, value]
-# ## pairs so we can sort on the frequencies (which are the 'value'
-# ## entries in the dictionary)
-# flipped = []
-# for key, value in freqs.items():
-#     flipped.append([value, key])
-# flipped.sort()
-#==============================================================================
-
-#==============================================================================
-# the following just runs this on the Genesis1 sample text. 
-# sb=makeSpreadBigrams("Genesis1.txt",2)
-# csb=countBigrams(sb)
-# print csb
-# mostFrequentBigrams(csb,10)
-#==============================================================================
 
 def sampleBigramsRun(textFile):
     sbrb=makeSpreadBigrams(textFile,4)
